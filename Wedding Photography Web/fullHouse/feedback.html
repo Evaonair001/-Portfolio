@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--    Document Title-->
+  <title>Full House | 婚紗攝影</title>
+
+  <!--    Favicons-->
+  <link rel="apple-touch-icon" sizes="180x180" href="./img/icons/圖片1.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/icons/圖片1.png">
+
+  <!--    Stylesheets-->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+
+  <!-- icon -->
+  <script src="https://kit.fontawesome.com/587cbd6750.js" crossorigin="anonymous"></script>
+
+  <!--自己的-->
+  <link rel="stylesheet" href="./style.css">
+  <script src="./footer.js"></script>
+
+  <!-- Mycss -->
+  <link rel="stylesheet" href="../UL/jquery-ui.min.css">
+</head>
+
+<body style="background-image:url(../fullHouse/中式/111-666.png);
+background-size: cover;
+background-attachment: fixed;
+overflow-x:hidden;">
+  <!--  navbar  -->
+  <nav class="navbar navbar-expand-md navbar-light fixed-top narbg-light ">
+    <div class="container">
+      <a href="#" class="navbar-brand d-flex align-items-center"><img class="d-inline-block img-fluid" width="30"
+          src="./img/icons/圖片1.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse " id="navbarCollapse">
+        <ul class="navbar-nav ms-auto pt-2">
+          <li class="nav-item active">
+            <a class="nav-link" href="./indexFull.html">首頁</a>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./aboutMe.html">認識我們</a>
+
+          <li class="nav-item ">
+            <a class="nav-link" href="./img_pg.html">攝影作品</a>
+
+
+          <li class="nav-item">
+            <a class="nav-link" href="./indexFull.html#project">包套方案</a>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">新人推薦</a>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">聯絡我們</a>
+
+        </ul>
+      </div>
+      <div>
+        <form class="ps-lg-5">
+          <!-- Button trigger modal -->
+          <button id="myBtn" type="button" class="btn btn-outline-primary" data-toggle="modal"
+            data-target="#exampleModal">
+            立即諮詢
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <header class="fadeinimg py-5">
+    <div class="header-h1-fb">
+      <h1 class="ml7">
+        <span class="text-wrapper">
+          <span class="letters ml7size">新人推薦</span>
+        </span>
+        <p class="ml7p">Feedback</p>
+      </h1>
+    </div>
+
+    <img src="./img/中間圖/033.jpg" class="img-fluid  header-img-fb">
+
+  </header>
+
+
+  <!-- Creates the bootstrap modal -->
+  <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+
+        <div class="modal-body">
+          <img src="" id="imagepreview">
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!--評價-->
+  <article id="comment">
+    <div class="wrapper container pb-4" id="title">
+      <!-- 專案區 -->
+      <div>
+        <div class="row py-5">
+          <div class="col-sm-12 col-xl-5 col-md-12 comtimg ">
+            <img class="largelick img-fluid hover-top" src="../fullHouse/img/feedback/01.jpg" alt="" />
+          </div>
+          <div class="col-sm-12 col-xl-7 col-md-12  bg">
+            <p id="comt">
+            <h5>Danny Chiang</h5><br>
+            “好喜歡兩位攝影師，很會cue又很會鼓勵新人，明明是拍婚宴，
+            <br>卻還可以趁空擋幫我們拍婚紗照again，
+            <br>大推呀🧡💚❤️💙💛
+            <br>
+            <br> 最重要的是他們很熱愛他們的工作，
+            這種氛圍會感染被拍照的我們，
+            <br>所以照片呈現出來都很輕鬆很自然。
+            <br>當初也是看網友推薦的，真的很棒喔！”
+            </p>
+
+          </div>
+        </div>
+        <hr class="text-primary " style="width:100%; padding-bottom: 2rem;" />
+        <div class="row pb-5" style="font-size: 16px;">
+          <div class="col-sm-12 col-xl-7 col-md-12 bg">
+            <p id="comt">
+            <h5>Grace Hsieh</h5><br>
+            “從第一次見面就在85•C聊翻天，
+            整個咖啡店幾乎都是我們的聲音😂
+            <br>一整天下來都是歡樂氣氛，節奏拍攝超好笑😂
+            <br><br> &ensp;&ensp;每張照片都是捕捉到最自然的那一刻，
+            非常的開心老婆有找到他們，
+            讓我非常的開心～～
+            彼此就像朋友一樣嬉鬧，
+            然後又很專業的幫我們紀錄下美好回憶，
+            完全不怕有漏網鏡頭啊!
+            <br><br>
+            往後所有朋友要拍照攝影婚紗類我一律推薦她們”
+            <br>
+            </p>
+
+
+          </div>
+          <div class="col-sm-12 col-xl-5 col-md-12  comtimg ">
+            <img class="largelick img-fluid hover-top" src="../fullHouse/img/feedback/02.jpg" alt="" />
+          </div>
+        </div>
+        <hr class="text-primary " style="width:100%; padding-bottom: 2rem;" />
+        <div class="row">
+          <div class="col-sm-12 col-xl-5 col-md-12 comtimg ">
+            <img class="largelick img-fluid hover-top" src="../fullHouse/img/feedback/03.jpg" alt="" />
+          </div>
+          <div class="col-sm-12 col-xl-7 col-md-12 bg">
+            <p id="comt">
+            <h5>Jessica Tseng</h5><br>
+            &ensp;&ensp;“原先因為婚攝而煩惱，詢問了數家後最後選擇了Full House，老實說有點期待但也怕受傷害。
+            雖然疫情衝擊，但拍攝當天老師仍展現了超專業的拍攝領導！
+            讓我們淪陷在老師帶領的領域！
+            <br><br>&emsp;&emsp;在今天搶先看到成品，真的超級霹靂宇宙滿意😍
+            謝謝老師幫我們在人生重要的場景下，保留了我們最真實的畫面，把這些畫面用最專業的技術下紀錄下來！很高興選擇你們是我這場婚禮最棒的決定！
+            必須驕傲的說，<br>我挑婚攝和挑老婆一樣，都很會挑😝謝謝🙏”
+            </p>
+
+          </div>
+        </div>
+        <br><br>
+        <hr class="text-primary " style="width:100%;" />
+      </div>
+    </div>
+    </div>
+  </article>
+
+
+  <!-- 諮詢表 Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">婚禮攝影諮詢表</h5>
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+
+        </div>
+        <div class="modal-body">
+          <form id="myForm" novalidate method="post">
+
+            <div class="mb-3 was-validated">
+              <label class="form-label">聯絡人</label>
+              <div class="row">
+                <div class=" col-md-5 form-floating" name="lastna">
+                  <input type="text" class="form-control" placeholder="姓氏" required>
+                  <div class="invalid-feedback">
+                    *必填
+                  </div>
+                </div>
+                <div class="col-md-7" name="lastna">
+                  <input type="text" class="form-control" placeholder="名字" required>
+                  <div class="invalid-feedback">
+                    *必填
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3 was-validated" name="phone">
+              <label for="phone" class="form-label">連絡電話</label>
+              <input type="phone" class="form-control" id="phone" placeholder="09-xxxx-xxx" required>
+              <div class="invalid-feedback">
+                *必填
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="Email" class="form-label">電子信箱</label>
+              <input type="email" class="form-control" id="Email" placeholder="ex:name@gmail.com">
+            </div>
+            <hr class="mx-auto text-primary my-4" style="height:3px; width:300px;" />
+
+            <div class="mb-3">
+              <div class="form-group was-validated">
+                <label for="datepicker" class="form-label">婚禮檔期</label>
+                <input id="datepicker" type="text" value="" placeholder="請選擇時間與日期"
+                  class="form-control datetimepicker-input" data-toggle="datetimepicker" data-target="#datepicker"
+                  required>
+                <div class="invalid-feedback">
+                  *請輸入預計婚期
+                </div>
+              </div>
+              <label for="datepicker" class="pt-3 form-label">日期備註</label>
+              <textarea class="form-control" id="datepicker" rows="2"></textarea>
+            </div>
+            <hr class="mx-auto text-primary my-4" style="height:3px; width:300px;" />
+
+            <div class="my-3">
+              <label for="loca" class="form-label ">預計宴客餐廳或所在縣市</label>
+              <select id="loca" class="form-select" aria-label="Default select example">
+                <option disabled selected>縣市</option>
+                <option value="1">台中市</option>
+                <option value="2">彰化縣</option>
+                <option value="3">南投縣</option>
+                <option value="4">雲林縣</option>
+                <option value="4">嘉義縣</option>
+              </select>
+              <br>
+              <label for="loca" class="pt-3 form-label">餐廳名稱</label>
+              <textarea class="form-control" id="datepicker" rows="1"></textarea>
+              <br>
+              <label for="loca1" class="pt-3 form-label">詳細餐廳地址</label>
+              <textarea class="form-control" id="datepicker" rows="1"></textarea>
+            </div>
+
+            <div class="mb-5">
+              <label for="item" class="form-label">預計方案</label>
+              <div class="component container" id="item" style="height: 70px ; text-align: left;">
+                <div class="border row">
+                  <div class="col-6 form-check">
+                    <label class="form-check-label ">
+                      <input type="checkbox" class=" form-check-input">
+                      A.傳統文定(1.5hr拍攝)
+                    </label>
+                  </div>
+                  <div class="col-6 form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input">
+                      B.證婚+宴客(8hr拍攝)
+                    </label>
+                  </div>
+                </div>
+
+                <div class="border row">
+                  <div class="col-6 form-check">
+                    <label class="form-check-label ">
+                      <input type="checkbox" class=" form-check-input">
+                      C.戶外證婚(1hr拍攝)
+                    </label>
+                  </div>
+                  <div class="col-6 form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input">
+                      D.婚禮宴客(6hr拍攝)
+                    </label>
+                  </div>
+                </div>
+
+                <div class="border row">
+                  <div class="col-6  form-check">
+                    <label class="form-check-label ">
+                      <input type="checkbox" class=" form-check-input">
+                      E.婚紗拍攝(3hr拍攝)
+                    </label>
+                  </div>
+                  <div class="col-6  form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input">
+                      F.寶寶抓周(2hr拍攝)
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </form>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+          <button type="button" class="btn btn-primary" type="submit" value="submit">提交</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!--聯絡資訊-->
+  <footer class="footer" id="contact">
+    <div class="pt-4 row">
+     <div class="col-1"></div>
+     <div class="px-4 col-md-2 justify-content-center  d-flex">
+
+         <div class="footer-img">
+             <img class="img-fluid" src="./img/icons/圖片1.png">
+         </div>
+     </div>
+
+     <div class="px-5 col-md-4  justify-content-center">
+         <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                 class="bi bi-telephone-inbound-fill" viewBox="0 0 16 16">
+                 <path fill-rule="evenodd"
+                     d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0z" />
+             </svg>&emsp;T+ 886-4-23010015 7 </p>
+         <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                 class="bi bi-envelope" viewBox="0 0 16 16">
+                 <path
+                     d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+             </svg>&emsp;hi@morwed.com</p>
+         <p><i class="fa-solid fa-location-dot"></i>&emsp;333 桃園市龜山區長峰路76號</p>
+     </div>
+
+     <div class="col-md-4">
+         <div class="footer-icon">
+             <i class="fb fa-brands fa-facebook-square"></i>
+             <i class="ig fa-brands fa-instagram-square"></i>
+             <i class="yt fa-brands fa-youtube-square"></i>
+         </div>
+     </div>
+
+ </div>
+ <hr class="mx-auto text-primary " style="height:3px; width:1000px;" />
+ <p style="text-align: center;">©2008 FULLHOUSE WEDDING PHOTOGRAPHY. ALL RIGHT RESERVED.</p>
+</footer>
+
+  <div class="scroll-top">
+    <i class="fa fa-angle-up"></i>
+  </div>
+
+
+  <!-- 引入的script -->
+  <script src="./footer.js"></script>
+  <script src="../UL/jquery-ui.min.js"></script>
+  <script src="./form.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="./feedback.js"></script>
+  <script src="./img_pg.js"></script>
+
+</body>
+
+</html>
